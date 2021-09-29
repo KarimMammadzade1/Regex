@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/mapsScreen"
+        android:name="regexteam.example.regex.Screens.MapsScreen"
+        android:label="fragment_maps_screen"
+        tools:layout="@layout/fragment_maps_screen" >
+        <action
+            android:id="@+id/action_mapsScreen_to_homeScreen"
+            app:destination="@id/homeScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="regexteam.example.regex.Screens.AboutFragmentScreen"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_homeScreen"
+            app:destination="@id/homeScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="regexteam.example.regex.Screens.HomeScreen"
+        android:label="HomeScreen" >
+        <action
+            android:id="@+id/fromHometoMaps"
+            app:destination="@id/mapsScreen" />
+        <action
+            android:id="@+id/action_homeScreen_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+</navigation>

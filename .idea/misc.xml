@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-anydpi/changelanguageicon.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-hdpi/ic_baseline_add_to_drive_24.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-hdpi/ic_baseline_delete_24.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-hdpi/ic_baseline_file_copy_24.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-hdpi/ic_baseline_keyboard_arrow_up_24.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-hdpi/ic_baseline_link_24.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-hdpi/ic_baseline_share_24.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable/desticon.xml" value="0.290625" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable/finalresultinfo.xml" value="0.290625" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable/hyperlinktextview.xml" value="0.1649122807017544" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21796875" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable/splashimage.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/drawable/userlocationicon.xml" value="0.1486111111111111" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/font/gilroyfont.xml" value="0.2532467532467532" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout-v26/fragment_home_screen.xml" value="0.23125" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout-v28/fragment_home_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/a.xml" value="0.264" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/aaa.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/b.xml" value="1.646875" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/c.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/e.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/ex.xml" value="0.536" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/example.xml" value="0.2" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/faqlayout.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/ff.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/fragment_about.xml" value="0.5164075993091537" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/fragment_about_us.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/fragment_home_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/fragment_maps_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/fragment_splash_screen.xml" value="0.205859375" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/fragment_third_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/layoutmodalbottom.xml" value="0.5038520801232665" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/layout/modalbottomsheet.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/Kerim/AndroidStudioProjects/Ridaper/app/src/main/res/menu/navigationdrawer.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
