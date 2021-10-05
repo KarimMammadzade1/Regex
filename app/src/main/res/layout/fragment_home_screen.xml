@@ -83,7 +83,7 @@
                     android:layout_width="200dp"
                     android:layout_height="250dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/bolt" />
+                    android:src="@drawable/ic_launcher_background" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                     android:layout_width="200dp"
                     android:layout_height="250dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/uber" />
+                    android:src="@drawable/ic_launcher_background" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -154,7 +154,7 @@
                     android:layout_width="200dp"
                     android:layout_height="250dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/yuztaksi" />
+                    android:src="@drawable/ic_launcher_background" />
 
 
                 <TextView
@@ -190,7 +190,7 @@
                     android:layout_width="200dp"
                     android:layout_height="250dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/ekonom" />
+                    android:src="@drawable/ic_launcher_background" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -225,7 +225,7 @@
                     android:layout_width="200dp"
                     android:layout_height="250dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/bolt" />
+                    android:src="@drawable/ic_launcher_background" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -261,7 +261,7 @@
                     android:layout_width="200dp"
                     android:layout_height="250dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/maksim" />
+                    android:src="@drawable/ic_launcher_background" />
 
                 <TextView
                     android:layout_width="wrap_content"

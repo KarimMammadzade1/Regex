@@ -32,6 +32,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import android.os.CountDownTimer
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import androidx.lifecycle.lifecycleScope
 import regexteam.example.regex.System.CheckingSystem
 import regexteam.example.regex.System.GpsScreenDialog
@@ -71,7 +72,11 @@ class HomeScreen() : Fragment() {
         goMapsButton.setOnClickListener { findNavController().navigate(R.id.fromHometoMaps) }
         settingsbutton.setOnClickListener { showBottomSheet() }
 
-    boltEco.setOnClickListener { regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext()) }
+    boltEco.setOnClickListener {
+        LeavingAppFragmentDialog().show(childFragmentManager,"LA")
+        LeavingAppFragmentDialog.onClickListener = {
+            if(it){ Log.i("TAG", "onViewCreated: yes clicked") }else{ Log.i("TAG", "onViewCreated: no clicked") } }
+        regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext()) }
     boltXl.setOnClickListener {   regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext())}
     ekonomTaksi.setOnClickListener { regexteam.example.regex.Utils.OpenApp().openEkonomApp(requireContext())}
     maksimTaksi.setOnClickListener {  regexteam.example.regex.Utils.OpenApp().openMakimTaksiApp(requireContext()) }
@@ -228,5 +233,7 @@ class HomeScreen() : Fragment() {
         }
     }
 
-}
+    }
+
+
 
