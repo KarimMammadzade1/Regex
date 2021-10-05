@@ -75,13 +75,29 @@ class HomeScreen() : Fragment() {
     boltEco.setOnClickListener {
         LeavingAppFragmentDialog().show(childFragmentManager,"LA")
         LeavingAppFragmentDialog.onClickListener = {
-            if(it){ Log.i("TAG", "onViewCreated: yes clicked") }else{ Log.i("TAG", "onViewCreated: no clicked") } }
-        regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext()) }
-    boltXl.setOnClickListener {   regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext())}
-    ekonomTaksi.setOnClickListener { regexteam.example.regex.Utils.OpenApp().openEkonomApp(requireContext())}
-    maksimTaksi.setOnClickListener {  regexteam.example.regex.Utils.OpenApp().openMakimTaksiApp(requireContext()) }
-    yuzTaksi.setOnClickListener {  regexteam.example.regex.Utils.OpenApp().open189TaksiApp(requireContext()) }
-    uberX.setOnClickListener {  regexteam.example.regex.Utils.OpenApp().openUberApp(requireContext()) }
+            if(it){ regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext()) } } }
+
+    boltXl.setOnClickListener {
+        LeavingAppFragmentDialog().show(childFragmentManager,"LA")
+        LeavingAppFragmentDialog.onClickListener={
+            if (it){ regexteam.example.regex.Utils.OpenApp().openBoltApp(requireContext())} } }
+
+    ekonomTaksi.setOnClickListener {
+        LeavingAppFragmentDialog().show(childFragmentManager,"LA")
+LeavingAppFragmentDialog.onClickListener={if (it){regexteam.example.regex.Utils.OpenApp().openEkonomApp(requireContext())} }                                                              }
+
+    maksimTaksi.setOnClickListener {
+        LeavingAppFragmentDialog().show(childFragmentManager,"LA")
+        LeavingAppFragmentDialog.onClickListener={if (it){regexteam.example.regex.Utils.OpenApp().openMakimTaksiApp(requireContext()) } } }
+
+    yuzTaksi.setOnClickListener {
+        LeavingAppFragmentDialog().show(childFragmentManager,"LA")
+          LeavingAppFragmentDialog.onClickListener={if (it){ regexteam.example.regex.Utils.OpenApp().open189TaksiApp(requireContext())}}}
+
+    uberX.setOnClickListener {
+        LeavingAppFragmentDialog().show(childFragmentManager,"LA")
+     LeavingAppFragmentDialog.onClickListener={if (it){  regexteam.example.regex.Utils.OpenApp().openUberApp(requireContext())} }
+    }
 
     inCorrectEstimates.setOnClickListener { regexteam.example.regex.Utils.OpenApp().openMail(requireContext()) }
     inCorrectEstimates.setOnTouchListener(regexteam.example.regex.Utils.TouchListener())
